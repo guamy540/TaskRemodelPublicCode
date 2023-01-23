@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SplashContainer{
+    background: url(../../assets/images/wooden-decking-backyard.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-tint{
+    background-color: rgba(40, 25, 11, 0.5);
+    background-blend-mode: multiply;
+}
+
+.SplashDescriptionContainer{
+    background-color: rgb(146 64 14);
+}
+
+.HomeDescription{
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .HomeDescription{
+        text-align: left;
+    }
+}
