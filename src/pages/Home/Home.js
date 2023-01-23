@@ -9,11 +9,11 @@ const Home = () => {
             <div className='pr-4 flex flex-col items-end justify-center'>
                <h1 className='text-white text-5xl uppercase'>Bringing your home renovation dreams to life</h1>
                 <h2 className='text-white text-3xl pt-8 pb-8 uppercase'>Serving the community with pride</h2>
-                <button className='secondaryColorBackground text-white p-4 
+                <a href="/contact"><button className='secondaryColorBackground text-white p-4 
                     rounded-xl drop-shadow-xl w-36'
                     style={{zIndex:1}}>
                     CONTACT US
-                </button>
+                </button></a>
             </div>
         </div>
         <div className='SplashDescriptionContainer w-full flex flex-col p-8 items-center text-center'>
