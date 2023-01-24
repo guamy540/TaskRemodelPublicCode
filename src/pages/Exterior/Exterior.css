@@ -1,0 +1,18 @@
+.ExteriorSplashContainer{
+    padding:4rem;
+    width: 75%;
+}
+
+.ExteriorSplashContainer{
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+
+    .ExteriorSplashContainer{
+        width: 85%;
+        padding:1rem;
+        text-align: left;
+    }
+
+}

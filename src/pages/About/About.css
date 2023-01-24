@@ -1,0 +1,18 @@
+.AboutSplashContainer{
+    padding:4rem;
+    width: 75%;
+}
+
+.AboutSplashContainer{
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+
+    .AboutSplashContainer{
+        width: 85%;
+        padding:1rem;
+        text-align: left;
+    }
+
+}

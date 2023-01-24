@@ -1,0 +1,14 @@
+.GallerySplashContainer{
+    padding:4rem;
+}
+
+@media (max-width: 700px) {
+
+    .GallerySplashContainer{
+        padding:0.7rem;
+    }
+
+    .GalleryDescription{
+        text-align: left;
+    }
+}

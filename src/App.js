@@ -1,18 +1,10 @@
 import './App.css';
+import {Home, About, Bathroom, ContactPage, Exterior, Flooring, Gallery, ReviewsPage, Services} from './pages/index.js'
 import Navbar from './components/Navbar/Navbar';
-import ReviewsPage from './pages/Reviews/ReviewsPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import RequestEstimateButton from './components/RequestEstimateButton/RequestEstimateButton';
-import ContactPage from './pages/Contact/ContactPage';
-import About from './pages/About/About';
-import Bathroom from './pages/Bathroom/Bathroom';
-import Flooring from './pages/Flooring/Flooring';
-import Exterior from './pages/Exterior/Exterior';
-import Services from './pages/Services/Services';
-import Gallery from './pages/Gallery/Gallery';
 
 function App() {
   return (

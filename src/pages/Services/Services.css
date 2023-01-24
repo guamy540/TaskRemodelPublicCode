@@ -1,15 +1,15 @@
-.BathroomSplashContainer{
+.ServicesSplashContainer{
     padding:4rem;
     width: 75%;
 }
 
-.BathroomSplashContainer{
+.ServicesSplashContainer{
     text-align: center;
 }
 
 @media (max-width: 700px) {
 
-    .BathroomSplashContainer{
+    .ServicesSplashContainer{
         width: 85%;
         padding:1rem;
         text-align: left;

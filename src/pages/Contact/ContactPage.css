@@ -1,3 +1,19 @@
 p, li{
     line-height: 1.8rem;
 }
+
+.ContactDescContainer{
+    padding: 2rem
+}
+
+@media (max-width: 700px) {
+
+    .ContactDescContainer{
+        padding: 0.7rem;
+    }
+
+    .ContactDescription{
+        text-align: left;
+        padding: 0.3rem;
+    }
+}

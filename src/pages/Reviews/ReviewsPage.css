@@ -1,4 +1,14 @@
 .ReviewsSplashContainer{
-    height: 60vh;
-    width: 60vw;
+    padding: 4rem;
+}
+
+@media (max-width: 700px) {
+
+    .ReviewsSplashContainer{
+        padding: 2rem;
+    }
+
+    .ReviewsDescription{
+        text-align: left;
+    }
 }

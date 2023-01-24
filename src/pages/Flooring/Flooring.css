@@ -1,0 +1,15 @@
+.FloorSplashContainer{
+    padding: 4rem;
+    width: 75%;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+
+    .FloorSplashContainer{
+        width: 85%;
+        padding:1rem;
+        text-align: left;
+    }
+
+}
