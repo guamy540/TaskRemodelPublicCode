@@ -4,7 +4,7 @@ import "./About.css"
 const About = () => {
   return (
     <div>
-      <div className='AboutPageContainer h-screen flex flex-col justify-center items-center bg-black'>
+      <div className='AboutPageContainer flex flex-col justify-center items-center bg-black'>
             <div className='AboutSplashContainer text-white secondaryColorBackground
                 flex flex-col justify-center items-center mt-32 mb-16 rounded-xl'>
                 <h1 className='text-4xl uppercase mb-4'>About</h1>
