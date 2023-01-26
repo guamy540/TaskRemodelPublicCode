@@ -1,0 +1,55 @@
+.BathroomSplashContainer{
+    width: 75%;
+}
+
+.BathroomSplashContainer{
+    text-align: center;
+}
+
+.BathroomTextImageContainer{
+    display: flex;
+}
+
+.TextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    padding: 3rem;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+}
+
+.column {
+    flex: 50%;
+}
+
+.ImageContainer{
+}
+
+@media (max-width: 900px){
+    .TextContainer{
+        text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .BathroomSplashContainer{
+        width: 85%;
+        padding:1rem;
+        text-align: left;
+    }
+
+    .row{
+        flex-direction: column;
+      }
+    
+    .ImageContainer{
+        margin-top: 2rem;
+    }
+}

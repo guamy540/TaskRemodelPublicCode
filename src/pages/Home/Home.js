@@ -16,7 +16,7 @@ const Home = () => {
                 </button></a>
             </div>
         </div>
-        <div className='SplashDescriptionContainer w-full flex flex-col p-8 items-center text-center'>
+        <div className='SplashDescriptionContainer w-full flex flex-col p-8 items-center text-justify'>
                 <h3 className='uppercase text-white text-2xl'>Start your dream home today!</h3>
                 <h4 className='uppercase text-white text-xl pt-4'>Have your needs met with an experienced contractor</h4>
                 <p className='HomeDescription 

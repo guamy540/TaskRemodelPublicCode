@@ -1,3 +1,7 @@
+.AboutPageContainer{
+    min-height: 100vh;
+}
+
 .AboutSplashContainer{
     padding:4rem;
     width: 75%;

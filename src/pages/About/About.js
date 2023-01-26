@@ -8,7 +8,7 @@ const About = () => {
             <div className='AboutSplashContainer text-white secondaryColorBackground
                 flex flex-col justify-center items-center mt-32 mb-16 rounded-xl'>
                 <h1 className='text-4xl uppercase mb-4'>About</h1>
-                <p>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
+                <p className='text-justify'>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
                   company located in Washington state. Our owner has been in the business of 
                   remodeling houses for years, and has developed a deep understanding of the industry 
                   and the needs of his clients. We pride ourselves on providing the highest quality 

@@ -1,5 +1,5 @@
 import './App.css';
-import {Home, About, Bathroom, ContactPage, Exterior, Flooring, Gallery, ReviewsPage, Services} from './pages/index.js'
+import {Home, About, ContactPage, Gallery, ReviewsPage, Services} from './pages/index.js'
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -15,9 +15,6 @@ function App() {
       <Routes>
         <Route path="/" element= {<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/bathroom" element={<Bathroom/>}/>
-        <Route path="/flooring" element={<Flooring/>}/>
-        <Route path="/exterior" element={<Exterior/>}/>
         <Route path="/services" element= {<Services/>}/>
         <Route path= "/gallery" element={<Gallery/>}/>
         <Route path="/reviews" element={<ReviewsPage/>}/>

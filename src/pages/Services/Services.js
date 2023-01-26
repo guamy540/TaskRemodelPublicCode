@@ -1,10 +1,13 @@
 import React from 'react'
+import {Bathroom, Exterior, Flooring} from "../../components/index.js"
 import "./Services.css"
 
 const Services = () => {
   return (
-    <div className='ServicesPageContainer h-screen flex flex-col justify-center items-center bg-black'>
-        <div className='ServicesSplashContainer text-white secondaryColorBackground
+    <div className='ServicesPageContainer flex flex-col justify-center items-center bg-black'>
+       
+       {/**services splash */}
+       <div className='ServicesSplashContainer text-white secondaryColorBackground
             flex flex-col justify-center items-center mt-32 mb-16 rounded-xl'>
             <h1 className='text-4xl uppercase mb-4'>Services</h1>
             <p>Task Remodeling and Home Repair offers a wide range of services to meet all of 
@@ -17,6 +20,18 @@ const Services = () => {
                 let us know how we can help you create the home of your dreams. Contact us today to 
                 schedule a consultation.</p>
         </div>
+      <div className='SectionContainer'>
+        <Bathroom/>
+      </div>
+
+      <div className='SectionContainer'>
+        <Flooring/>
+      </div>
+
+      <div className='SectionContainer'>
+        <Exterior/>
+      </div>
+      
     </div>
     )
 }

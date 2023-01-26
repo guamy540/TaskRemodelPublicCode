@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
       <div className='GalleryPageContainer h-screen flex flex-col justify-center items-center bg-black'>
             <div className='GallerySplashContainer w-3/4 text-white secondaryColorBackground
-                flex flex-col justify-center items-center mt-32 mb-16 rounded-xl text-center'>
+                flex flex-col justify-center items-center mt-32 mb-16 rounded-xl text-justify'>
                 <h1 className='text-4xl uppercase mb-4'>Gallery</h1>
                 <p className='GalleryDescription'>At Task Remodeling and Home Repair, we take great pride in the work we do. 
                   We invite you to take a look at our portfolio and see for yourself the quality 

@@ -10,16 +10,15 @@ const ContactPage = () => {
       <div className='ContactDescContainer text-white secondaryColorBackground text-center
         flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
         <h1 className='text-4xl uppercase mb-4'>Contact</h1>
-        <p className='ContactDescription'>
+        <p className='ContactDescription text-justify'>
           Thank you for considering Task Remodeling and Home Repair for your home 
           renovation needs. We would be happy to provide you with a free consultation and 
           estimate for your project. If you have any questions or would like to schedule a 
           consultation, please don't hesitate to contact us. You can reach us by phone, email, 
           or by filling out the contact form on this page. We look forward to hearing from you 
           and helping you create the home of your dreams.</p>
-      </div>
       
-      <div className='ContactSplashContainer w-3/4 secondaryColorBackground text-white 
+          <div className='ContactSplashContainer w-3/4 secondaryColorBackground text-white 
         flex flex-col justify-center items-center rounded-md pt-8 pb-8'>
         <h2 className='uppercase text-2xl'>Task Remodeling and Home Repair</h2>
         <p>_____________</p>
@@ -37,7 +36,8 @@ const ContactPage = () => {
           <li>Sun: 8:00AM - 7:00 PM</li>
         </ul>
       </div>
-
+      </div>
+      
       <div className='MessageContainer'>
 
       </div>
