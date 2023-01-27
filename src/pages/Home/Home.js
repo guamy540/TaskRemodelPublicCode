@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Home.css"
 import "../../assets/styles/colors.css"
-import HomeGalleryData from './GalleryData'
+import HomeGalleryData from './HomeGalleryData'
+import {TfiClose} from 'react-icons/tfi'
 
 const Home = () => {
+  
+  const [model, setModel] = useState(false);
+  const[tempimgSrc, setTempImgSrc] = useState('');
+
+  const getImg=(imgBig)=>{
+      setTempImgSrc(imgBig);
+      setModel(true);
+  }
+
   return (
     <main className='HomePageContainer'>
       <div className='SplashContainer background-tint h-screen text-right flex flex-col items-end justify-center'>
@@ -47,8 +57,9 @@ const Home = () => {
         <div className='HomeGalleryContainer'>
           {HomeGalleryData.data.initialdata.map((item, index) => {
             return (
-              <div key={index} className='HomeGalleryImages'>
-                <img src={item.image} className='rounded-md'/>
+              <div key={index} className='HomeGalleryImages' 
+                onClick={() => getImg(item.image)}>
+                <img src={item.image} className='rounded-md hgImage' alt={item.text}/>
               </div>
             )
           })}
@@ -61,6 +72,11 @@ const Home = () => {
           to see more!
         </p>
       </section>
+
+      <div className= {model? "model open" : "model"}>
+          <img src={tempimgSrc} alt="enlarged"/>
+          <TfiClose onClick={() => setModel(false)}/>
+      </div>
 
     </main>
   )

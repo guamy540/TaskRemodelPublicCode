@@ -1,26 +1,26 @@
-import Image from "./construction.jpg"
+import { placeHolderLarge, placeHolderSmall, constructionImage } from "../../assets";
 
 var HomeGalleryData = {
     data: {
         "initialdata":[
             {
                 "text" : "",
-                "image" : Image,
+                "image" : constructionImage,
             },
             
             {
                 "text" : "",
-                "image" : Image,
+                "image" : placeHolderLarge,
             },
             
             {
                 "text" : "",
-                "image" : Image
+                "image" : placeHolderSmall
             },
             
             {
                 "text" : "",
-                "image" : Image
+                "image" : constructionImage
             }
         ]
     }
