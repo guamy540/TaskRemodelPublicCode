@@ -5,7 +5,7 @@ import { placeHolderSmall } from '../../assets'
 const Flooring = () => {
   return (
     <div className='FloorSplashContainer text-white secondaryColorBackground
-        flex flex-col justify-center items-center mb-16 rounded-xl'>
+        flex flex-col justify-center items-center rounded-xl'>
         <h1 className='text-4xl uppercase mb-4 pt-8'>Flooring</h1>
         <div className='BathroomTextImageContainer row'>
           <div className='TextContainer column'>
@@ -17,12 +17,12 @@ const Flooring = () => {
             exceed our clients' expectations. Browse through our gallery of flooring projects 
             and let us help you create the floors of your dreams. Contact us today to schedule 
             a consultation.</p>
-            <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
-            Gallery
-          </button></a>
           </div>
           <div className='ImageContainer column p-4'>
             <img classname='Image' src = {placeHolderSmall} alt='bathroomImage'/>
+            <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
+            Gallery
+            </button></a>
           </div>
         </div>
     </div>

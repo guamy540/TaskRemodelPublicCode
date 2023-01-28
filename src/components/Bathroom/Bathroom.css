@@ -29,15 +29,17 @@
 }
 
 .ImageContainer{
+    display: flex;
+    flex-direction: column;
 }
 
-@media (max-width: 900px){
+@media (max-width: 925px){
     .TextContainer{
         text-align: left;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 925px) {
 
     .BathroomSplashContainer{
         width: 85%;

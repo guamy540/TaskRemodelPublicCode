@@ -4,8 +4,8 @@ import {placeHolderSmall} from '../../assets/index.js'
 
 const Bathroom = () => {
   return (
-    <div className='BathroomSplashContainer text-white secondaryColorBackground
-      flex flex-col justify-center items-center mb-16 rounded-xl'>
+    <div id="bathroom" className='BathroomSplashContainer text-white secondaryColorBackground
+      flex flex-col justify-center items-center rounded-xl'>
       <h1 className='text-4xl uppercase mb-4 pt-8'>Bathroom</h1>
       <div className='BathroomTextImageContainer row'>
         <div className='TextContainer column'>
@@ -17,12 +17,12 @@ const Bathroom = () => {
             the look of your bathroom to increasing its functionality, we have the expertise 
             to make it happen. Browse through our gallery of bathroom projects and let us help 
             you create the bathroom of your dreams. Contact us today to schedule a consultation.</p>
-          <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
-            Gallery
-          </button></a>
         </div>
         <div className='ImageContainer column p-4'>
           <img src = {placeHolderSmall} alt='bathroomImage'/>
+          <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
+            Gallery
+          </button></a>
         </div>
       </div>
     </div>
