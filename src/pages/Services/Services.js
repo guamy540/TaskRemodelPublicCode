@@ -1,6 +1,7 @@
 import React from 'react'
 import {Bathroom, Exterior, Flooring} from "../../components/index.js"
 import "./Services.css"
+import { Link } from 'react-scroll'
 
 const Services = () => {
   return (
@@ -20,18 +21,37 @@ const Services = () => {
                 let us know how we can help you create the home of your dreams. Contact us today to 
                 schedule a consultation.</p>
             <div className='ServicesPageLinks flex flex-wrap flex-row justify-center'>
-              <a href="#bathroom"><button 
+            <Link
+                activeClass="active"
+                to="bathroom"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}><button 
                 className='p-4 m-4 bg-black text-white rounded-xl uppercase'>
                 Bathroom
-                </button></a>
-                <a href="#flooring"><button 
+                </button></Link>
+                <Link
+                activeClass="active"
+                to="flooring"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}><button 
                 className='p-4 m-4 bg-black text-white rounded-xl uppercase'>
                 Flooring
-                </button></a>
-                <a href="#exterior"><button 
+                </button></Link>
+                <Link
+                activeClass="active"
+                to="exterior"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}>
+                <button 
                 className='p-4 m-4 bg-black text-white rounded-xl uppercase'>
                 Exterior
-                </button></a>
+                </button></Link>
             </div>
         </div>
 
