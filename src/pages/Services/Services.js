@@ -10,7 +10,7 @@ const Services = () => {
        {/**services splash */}
        <div className='ServicesSplashContainer text-white secondaryColorBackground
             flex flex-col justify-center items-center mt-32 rounded-xl'>
-            <h1 className='text-4xl uppercase mb-4'>Services</h1>
+            <h1 className='text-4xl uppercase mb-4 p-4'>Services</h1>
             <p>Task Remodeling and Home Repair offers a wide range of services to meet all of 
                 your home renovation needs. Our team of experienced professionals specializes 
                 in bathroom remodels, painting, roofing, decking, drywall, plumbing, tile, flooring, 
