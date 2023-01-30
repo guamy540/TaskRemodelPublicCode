@@ -1,26 +1,21 @@
-import { placeHolderLarge, placeHolderSmall, constructionImage } from "../../assets";
+import { bathroomOverhead, deckOutside, frontHouse } from "../../assets";
 
 var HomeGalleryData = {
     data: {
         "initialdata":[
             {
                 "text" : "",
-                "image" : constructionImage,
+                "image" : bathroomOverhead,
             },
             
             {
                 "text" : "",
-                "image" : placeHolderLarge,
+                "image" : deckOutside,
             },
             
             {
                 "text" : "",
-                "image" : placeHolderSmall
-            },
-            
-            {
-                "text" : "",
-                "image" : constructionImage
+                "image" : frontHouse
             }
         ]
     }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Exterior.css"
-import { placeHolderSmall } from '../../assets'
+import { deckOutside } from '../../assets'
 
 const Exterior = () => {
   return (
@@ -19,7 +19,7 @@ const Exterior = () => {
           Contact us today to schedule a consultation.</p>
         </div>
         <div className='ImageContainer column p-4' >
-          <img src = {placeHolderSmall} alt='bathroomImage'/>
+          <img src = {deckOutside} alt='bathroomImage' className='rounded-lg'/>
           <a href='/Gallery'><button className='mt-4  p-4 bg-black text-white uppercase w-32 rounded-xl'>
             Gallery
           </button></a>

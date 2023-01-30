@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Flooring.css"
-import { placeHolderSmall } from '../../assets'
+import { floorDarkBrown } from '../../assets'
 
 const Flooring = () => {
   return (
@@ -19,7 +19,7 @@ const Flooring = () => {
             a consultation.</p>
           </div>
           <div className='ImageContainer column p-4'>
-            <img classname='Image' src = {placeHolderSmall} alt='bathroomImage'/>
+            <img classname='Image' src = {floorDarkBrown} alt='bathroomImage' className='rounded-lg'/>
             <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
             Gallery
             </button></a>

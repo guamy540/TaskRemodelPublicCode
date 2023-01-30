@@ -1,65 +1,48 @@
-import { placeHolderLarge, placeHolderSmall, constructionImage } from "../../assets";
+import { bathroomInside, bathroomOverhead, bathroomShower, 
+    deckOutside, floor2DarkBrown, floorDarkBrown, 
+    floorLightBrown,frontHouse } from "../../assets";
 
 var GalleryData = {
     data: {
         "initialdata":[
             {
                 "text" : "",
-                "image" : constructionImage,
+                "image" : bathroomInside,
             },
             
             {
                 "text" : "",
-                "image" : placeHolderLarge,
+                "image" : bathroomOverhead,
             },
             
             {
                 "text" : "",
-                "image" : placeHolderSmall
+                "image" : floor2DarkBrown
             },
             
             {
                 "text" : "",
-                "image" : constructionImage
+                "image" : deckOutside
             },
             {
                 "text" : "",
-                "image" : constructionImage,
-            },
-            
-            {
-                "text" : "",
-                "image" : placeHolderLarge,
+                "image" : bathroomShower,
             },
             
             {
                 "text" : "",
-                "image" : placeHolderSmall
+                "image" : floorDarkBrown,
             },
             
             {
                 "text" : "",
-                "image" : constructionImage
-            },
-            {
-                "text" : "",
-                "image" : constructionImage,
+                "image" : floorLightBrown
             },
             
             {
                 "text" : "",
-                "image" : placeHolderLarge,
-            },
-            
-            {
-                "text" : "",
-                "image" : placeHolderSmall
-            },
-            
-            {
-                "text" : "",
-                "image" : constructionImage
-            }
+                "image" : frontHouse
+            }   
         ]
     }
 }

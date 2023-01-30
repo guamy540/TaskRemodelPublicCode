@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Bathroom.css"
-import {placeHolderSmall} from '../../assets/index.js'
+import {bathroomOverhead} from '../../assets/index.js'
 
 const Bathroom = () => {
   return (
@@ -19,7 +19,7 @@ const Bathroom = () => {
             you create the bathroom of your dreams. Contact us today to schedule a consultation.</p>
         </div>
         <div className='ImageContainer column p-4'>
-          <img src = {placeHolderSmall} alt='bathroomImage'/>
+          <img src = {bathroomOverhead} alt='bathroomImage' className='rounded-lg'/>
           <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
             Gallery
           </button></a>
