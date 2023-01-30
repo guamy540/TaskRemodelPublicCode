@@ -9,7 +9,7 @@ const ReviewsPage = () => {
   return (
     <div className='ReviewsPageContainer flex flex-col justify-center items-center bg-black'>
       
-      <div className='ReviewsSplashContainer text-white secondaryColorBackground text-justify
+      <div className='ReviewsSplashContainer text-white secondaryColorBackground
         flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
         <h1 className='text-4xl uppercase mb-4'>Reviews</h1>
         <p className='ReviewsDescription'>At Task Remodeling and Home Repair, customer satisfaction is our 

@@ -1,5 +1,6 @@
 .ReviewsSplashContainer{
     padding: 4rem;
+    text-align: center;
 }
 
 @media (max-width: 700px) {

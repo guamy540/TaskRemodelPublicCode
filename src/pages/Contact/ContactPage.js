@@ -10,7 +10,7 @@ const ContactPage = () => {
       <div className='ContactDescContainer text-white secondaryColorBackground text-center
         flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
         <h1 className='text-4xl uppercase mb-4'>Contact</h1>
-        <p className='ContactDescription text-justify'>
+        <p className='ContactDescription'>
           Thank you for considering Task Remodeling and Home Repair for your home 
           renovation needs. We would be happy to provide you with a free consultation and 
           estimate for your project. If you have any questions or would like to schedule a 

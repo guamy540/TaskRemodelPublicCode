@@ -1,14 +1,15 @@
 import React from 'react'
 import "./About.css"
+import { deckOutside } from '../../assets'
 
 const About = () => {
   return (
     <div>
-      <div className='AboutPageContainer flex flex-col justify-center items-center bg-black'>
+      <section className='AboutPageContainer flex flex-col justify-center items-center bg-black'>
             <div className='AboutSplashContainer text-white secondaryColorBackground
-                flex flex-col justify-center items-center mt-32 mb-16 rounded-xl'>
+                flex flex-col justify-center items-center mt-32 rounded-xl'>
                 <h1 className='text-4xl uppercase mb-4'>About</h1>
-                <p className='text-justify'>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
+                <p className=''>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
                   company located in Washington state. Our owner has been in the business of 
                   remodeling houses for years, and has developed a deep understanding of the industry 
                   and the needs of his clients. We pride ourselves on providing the highest quality 
@@ -19,7 +20,30 @@ const About = () => {
                   Trust us to handle all your home remodeling needs, from start to finish. Contact us 
                   today to schedule a consultation and let us help you create the home of your dreams.</p>
             </div>
-        </div>
+        </section>
+
+        
+      <section className='flex flex-col justify-center items-center bg-black'>
+            <div className='AboutSplashContainer text-white secondaryColorBackground
+                flex flex-col justify-center items-center mb-16 mt-16 rounded-xl'>
+                <h1 className='text-4xl uppercase mb-4'>Meet Rob</h1>
+                <div className='row'>
+                  <div className='meetRobText column'>
+                    <p className=''>Rob Macfarlane is the founder of Task Remodeling and Home Repair, a company dedicated to transforming living spaces in the community. With years of experience in the home remodeling industry, Rob has a passion for bringing new life to homes, and a talent for creating beautiful and functional spaces that exceed his clients' expectations.
+                    <br/><br/>
+                    Rob's expertise extends to a wide range of home remodeling services, including kitchen and bathroom remodeling, home additions, and complete home renovations. He is a master at working with different styles and budgets, and is always up for a challenge.
+                    <br/><br/>
+                    In addition to his technical skills, Rob is known for his attention to detail and commitment to customer service. He takes the time to understand his clients' needs and preferences, and works closely with them to bring their vision to life.
+                    <br/><br/>
+                    When he's not busy transforming homes, Rob enjoys spending time with his family and giving back to the community. He is active in local organizations and is always looking for new ways to make a positive impact in the lives of those around him.
+                    </p>
+                </div>
+                  <div className='column'>
+                    <img src={deckOutside} alt='profile' className='rounded-lg'/>
+                  </div>          
+                </div>
+            </div>
+        </section>
     </div>
   )
 }

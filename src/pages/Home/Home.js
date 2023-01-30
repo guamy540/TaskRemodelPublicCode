@@ -29,8 +29,8 @@ const Home = () => {
       </div>
 
       <div className='SplashDescriptionContainer w-full flex flex-col p-8 items-center text-justify'>
-        <h3 className='uppercase text-white text-center text-2xl'>Start your dream home today!</h3>
-        <h4 className='uppercase text-white text-xl pt-4 text-center'>Have your needs met with an experienced contractor</h4>
+        <h3 className='uppercase text-white text-center text-3xl'>Start your dream home today!</h3>
+        <h4 className='uppercase text-white text-2xl pt-4 text-center'>Have your needs met with an experienced contractor</h4>
         <p className='HomeDescription 
             text-white pt-4'> 
             Welcome to Task Remodeling and Home Repair, where we turn your home renovation 
