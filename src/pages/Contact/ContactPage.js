@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ContactPage.css"
 import "../../assets/styles/colors.css"
+import ContactForm from '../../components/ContactForm/ContactForm'
 
 const ContactPage = () => {
   return (
@@ -36,14 +37,15 @@ const ContactPage = () => {
           <li>Sun: 8:00AM - 7:00 PM</li>
         </ul>
       </div>
+      
+        <ContactForm/>
       </div>
       
       <div className='MessageContainer'>
 
       </div>
 
-      <div className='ContactForm mb-32'>
-        
+      <div className='ContactForm mb-32 secondaryColorBackground'>
       </div>
 
     </div>

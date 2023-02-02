@@ -7,6 +7,10 @@ p, li{
     text-align: center;
 }
 
+.ContactForm{
+    min-width: 75%;
+}
+
 @media (max-width: 700px) {
 
     .ContactDescContainer{
@@ -14,7 +18,7 @@ p, li{
     }
 
     .ContactDescription{
-        text-align: left;
+        text-align: justify;
         padding: 0.3rem;
     }
 }

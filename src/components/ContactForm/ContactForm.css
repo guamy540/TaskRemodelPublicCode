@@ -1,0 +1,15 @@
+.ContactFormContainer{
+    min-width: 35rem;
+}
+#formSubmitButton{
+    background-color: black;
+    width: 8rem;
+    border-radius: 0.7rem;
+    padding: 1rem;
+}
+
+@media (max-width: 700px) {
+    .ContactFormContainer{
+        min-width: 22rem;
+    }
+}
