@@ -11,3 +11,62 @@
     bottom: 0;
     right: 1rem;
 }
+
+.CallNowContainer{
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .quoteButton{
+        display: none;
+    }
+    .CallNowContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .CallNowContainer > button{
+        background-color: rgb(146 64 14);
+        padding: 0.5rem;
+        border-radius: 1rem;
+        border: solid black;
+    }
+    .CallNowPhoneIcon{
+        padding: 0.5rem;
+        font-size: 3.5rem;
+        background-color: rgb(146 64 14);
+        border-radius: 3rem;
+        border: solid #000000;
+        animation: pulse 2s infinite;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: pulse;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1.2);
+        }
+
+        50% {
+            transform: scale(0.9);
+        }
+
+        100% {
+            transform: scale(1.2);
+        }
+    }
+}
