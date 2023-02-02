@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {motion} from 'framer-motion'
 import "./Home.css"
 import "../../assets/styles/colors.css"
 import HomeGalleryData from './HomeGalleryData'
@@ -57,10 +58,12 @@ const Home = () => {
         <div className='HomeGalleryContainer'>
           {HomeGalleryData.data.initialdata.map((item, index) => {
             return (
-              <div key={index} className='HomeGalleryImages' 
-                onClick={() => getImg(item.image)}>
+              <motion.div key={index} 
+              className='HomeGalleryImages' 
+              whileHover={{scale: 1.5,}}
+              onClick={() => getImg(item.image)}>
                 <img src={item.image} className='rounded-md hgImage' alt={item.text}/>
-              </div>
+              </motion.div>
             )
           })}
         </div>

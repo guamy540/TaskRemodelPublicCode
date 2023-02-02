@@ -13,8 +13,8 @@ const Header = () => {
         <FiInstagram className='InstagramLogo text-white'/>
       </div>
       <div className='NumberContainer flex flex-row mr-8'>
-        <BsTelephoneFill className='text-white mr-2'/>
-        <p className='text-white'>(425) 321-7015</p>
+        <a href="tel: +4253217015"><BsTelephoneFill className='text-white mr-2'/>
+        <p className='text-white'>(425) 321-7015</p></a>
       </div>
     </div>
   )
