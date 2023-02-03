@@ -52,12 +52,11 @@ const Gallery = () => {
         </div>
       </section>
 
+      </motion.div>
       <div className= {model? "model open" : "model"}>
           <img src={tempimgSrc} alt="enlarged"/>
           <TfiClose onClick={() => setModel(false)}/>
       </div>
-
-      </motion.div>
       </div>
   )
 }
