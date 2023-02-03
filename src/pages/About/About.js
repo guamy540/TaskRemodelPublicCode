@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 import { deckOutside } from '../../assets'
+import {motion} from 'framer-motion'
 
 const About = () => {
   return (
@@ -8,6 +9,10 @@ const About = () => {
       <section className='AboutPageContainer flex flex-col justify-center items-center bg-black'>
             <div className='AboutSplashContainer text-white 
                 flex flex-col justify-center items-center mt-32 rounded-xl'>
+                <motion.div
+                whileInView={{ opacity: [0, 3] }}
+                transition={{ duration: 1 }}>
+
                 <h1 className='text-4xl uppercase mb-4'>About</h1>
                 <p className=''>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
                   company located in Washington state. Our owner has been in the business of 
@@ -19,6 +24,7 @@ const About = () => {
                   closely with our clients to create a design that fits their style, budget, and timeline. 
                   Trust us to handle all your home remodeling needs, from start to finish. Contact us 
                   today to schedule a consultation and let us help you create the home of your dreams.</p>
+                </motion.div>
             </div>
         </section>
 
@@ -26,6 +32,9 @@ const About = () => {
       <section className='flex flex-col justify-center items-center bg-black'>
             <div className='AboutSplashContainer text-white 
                 flex flex-col justify-center items-center mb-16 mt-16 rounded-xl'>
+                <motion.div
+                whileInView={{ opacity: [0, 3] }}
+                transition={{ duration: 1 }}>
                 <h1 className='text-4xl uppercase mb-4'>Meet Rob</h1>
                 <div className='row'>
                   <div className='meetRobText column'>
@@ -37,11 +46,12 @@ const About = () => {
                     <br/><br/>
                     When he's not busy transforming homes, Rob enjoys spending time with his family and giving back to the community. He is active in local organizations and is always looking for new ways to make a positive impact in the lives of those around him.
                     </p>
-                </div>
+                  </div>
                   <div className='column'>
                     <img src={deckOutside} alt='profile' className='rounded-lg'/>
                   </div>          
                 </div>
+                </motion.div>
             </div>
         </section>
     </div>

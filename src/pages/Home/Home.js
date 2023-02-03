@@ -18,7 +18,10 @@ const Home = () => {
   return (
     <main className='HomePageContainer'>
       <div className='SplashContainer background-tint h-screen text-right flex flex-col items-end justify-center'>
-          <div className='pr-4 flex flex-col items-end justify-center'>
+          <motion.div
+             whileInView={{ opacity: [0, 3] }}
+             transition={{ duration: 1 }}
+             className='pr-4 flex flex-col items-end justify-center'>
               <h1 className='text-white text-5xl uppercase'>Bringing your home renovation dreams to life</h1>
               <p className='text-white text-3xl pt-8 pb-8 uppercase '>Serving the community with pride</p>
               <a href="/contact"><button className='SplashContactUsButton text-white p-4 
@@ -26,11 +29,14 @@ const Home = () => {
                   style={{zIndex:1}}>
                   CONTACT US
               </button></a>
-          </div>
+          </motion.div>
       </div>
 
       <div className='SplashDescriptionContainer w-full flex flex-col p-8 items-center text-justify'>
-        <h3 className='uppercase text-white text-center text-3xl'>Start your dream home today!</h3>
+        <motion.div
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 1, delayChildren: 0.5 }}>
+                  <h3 className='uppercase text-white text-center text-3xl'>Start your dream home today!</h3>
         <h4 className='uppercase text-white text-2xl pt-4 text-center'>Have your needs met with an experienced contractor</h4>
         <p className='HomeDescription 
             text-white pt-4'> 
@@ -51,10 +57,14 @@ const Home = () => {
             Trust us to handle all your home remodeling needs, from start to finish. 
             Contact us today to schedule a consultation and let us help you create the home of 
             your dreams!*/}</p>
+        </motion.div>
         </div>
 
-      <section className='bg-black text-center pb-4'>  
-        <h3 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h3>
+      <section className='bg-black text-center pb-4'>
+        <motion.div
+        whileInView={{opacity: [0, 3] }}
+             transition={{ duration: 1 }}>
+          <h3 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h3>
         <div className='HomeGalleryContainer'>
           {HomeGalleryData.data.initialdata.map((item, index) => {
             return (
@@ -74,6 +84,8 @@ const Home = () => {
             </button></a></span>
           to see more!
         </p>
+        </motion.div>  
+        
       </section>
 
       <div className= {model? "model open" : "model"}>

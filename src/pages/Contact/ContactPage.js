@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ContactPage.css"
 import "../../assets/styles/colors.css"
+import {motion} from 'framer-motion'
 import ContactForm from '../../components/ContactForm/ContactForm'
 
 const ContactPage = () => {
@@ -8,7 +9,11 @@ const ContactPage = () => {
     <div className='ContactPageContainer mt-16 min-h-screen flex flex-col 
     justify-center text-center items-center bg-black'>
     
-      <div className='ContactDescContainer text-white text-center
+      <motion.div 
+      whileInView={{ opacity: [0, 3] }}
+      transition={{ duration: 1 }}
+      
+      className='ContactDescContainer text-white text-center
         flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
         <h1 className='text-4xl uppercase mb-4'>Contact</h1>
         <p className='ContactDescription'>
@@ -39,7 +44,7 @@ const ContactPage = () => {
       </div>
       
         <ContactForm/>
-      </div>
+      </motion.div>
       
       <div className='MessageContainer'>
 

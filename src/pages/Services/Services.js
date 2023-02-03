@@ -2,6 +2,7 @@ import React from 'react'
 import {Bathroom, Exterior, Flooring} from "../../components/index.js"
 import "./Services.css"
 import { Link } from 'react-scroll'
+import {motion} from 'framer-motion'
 
 const Services = () => {
   return (
@@ -10,6 +11,9 @@ const Services = () => {
        {/**services splash */}
        <div className='ServicesSplashContainer text-white 
             flex flex-col justify-center items-center mt-32 rounded-xl'>
+            <motion.div
+                whileInView={{ opacity: [0, 3] }}
+                transition={{ duration: 1 }}>
             <h1 className='text-4xl uppercase mb-4 p-4'>Services</h1>
             <p>Task Remodeling and Home Repair offers a wide range of services to meet all of 
                 your home renovation needs. Our team of experienced professionals specializes 
@@ -53,22 +57,31 @@ const Services = () => {
                 Exterior
                 </button></Link>
             </div>
+            </motion.div>
         </div>
 
       <div id="bathroom" className='mb-40'></div>
       <div className='SectionContainer'>
-        <Bathroom/>
+      <motion.div className='SectionContainer'
+                whileInView={{ opacity: [0, 3] }}
+                transition={{ duration: 1 }}><Bathroom/></motion.div>
       </div>
 
       <div id="flooring" className='mb-40'></div>
-      <div className='SectionContainer'>
+      <motion.div 
+      whileInView={{ opacity: [0, 3] }}
+      transition={{ duration: 1 }}
+      className='SectionContainer'>
         <Flooring/>
-      </div>
+      </motion.div>
 
       <div id="exterior" className='mb-40'></div>
-      <div className='SectionContainer'>
+      <motion.div 
+      whileInView={{ opacity: [0, 3] }}
+      transition={{ duration: 1 }}
+      className='SectionContainer'>
         <Exterior/>
-      </div>
+      </motion.div>
       
     </div>
     )

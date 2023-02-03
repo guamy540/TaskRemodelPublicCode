@@ -2,13 +2,18 @@ import React from 'react'
 import "./ReviewsPage.css"
 import "../../assets/styles/colors.css"
 import { reviews } from './Reviews'
+import {motion} from 'framer-motion'
 
 const ReviewsPage = () => {
 
 
   return (
     <div className='ReviewsPageContainer flex flex-col justify-center items-center bg-black'>
-      
+      <motion.div className='flex flex-col justify-center items-center'
+      whileInView={{ opacity: [0, 3] }}
+      transition={{ duration: 1 }}>
+
+   
       <div className='ReviewsSplashContainer text-white
         flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
         <h1 className='text-4xl uppercase mb-4'>Reviews</h1>
@@ -30,7 +35,8 @@ const ReviewsPage = () => {
                 </div>
             )
         })}
-      </div>
+      </div>  
+      </motion.div>
     </div>
   )
 }
