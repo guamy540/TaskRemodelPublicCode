@@ -37,4 +37,7 @@
         text-align: left;
     }
 
+    .AboutSplashContainer > h2 {
+        padding-left: 2rem;
+    }
 }

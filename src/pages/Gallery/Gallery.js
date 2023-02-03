@@ -16,12 +16,8 @@ const Gallery = () => {
 
   return (
       <div className='GalleryPageContainer flex flex-col justify-center items-center bg-black'>
-        <motion.div 
-        whileInView={{ opacity: [0, 3] }}
-        transition={{ duration: 1 }}
-        className='GalleryPageContainer flex flex-col justify-center items-center '>
 
-        <div className='GallerySplashContainer w-3/4 text-white secondaryColorBackground
+        <div className='GallerySplashContainer text-white
             flex flex-col justify-center items-center mt-32 mb-16 rounded-xl'>
          <h1 className='text-4xl uppercase mb-4'>Gallery</h1>
           <p className='GalleryDescription'>At Task Remodeling and Home Repair, we take great pride in the work we do. 
@@ -34,29 +30,6 @@ const Gallery = () => {
             project.</p>
         </div>
 
-        
-        <section 
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 1 }}
-        className='bg-black text-center pb-4'>  
-        <h3 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h3>
-        <div className='HomeGalleryContainer'>
-          {GalleryData.data.initialdata.map((item, index) => {
-            return (
-              <div key={index} className='GalleryImages' 
-                onClick={() => getImg(item.image)}>
-                <img src={item.image} className='rounded-md hgImage' alt={item.text}/>
-              </div>
-            )
-          })}
-        </div>
-      </section>
-
-      </motion.div>
-      <div className= {model? "model open" : "model"}>
-          <img src={tempimgSrc} alt="enlarged"/>
-          <TfiClose onClick={() => setModel(false)}/>
-      </div>
       </div>
   )
 }

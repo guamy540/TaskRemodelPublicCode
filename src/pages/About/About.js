@@ -13,7 +13,7 @@ const About = () => {
                 whileInView={{ opacity: [0, 3] }}
                 transition={{ duration: 1 }}>
 
-                <h1 className='text-4xl uppercase mb-4'>About</h1>
+                <h1 className='text-4xl uppercase mb-4 p-4'>About</h1>
                 <p className=''>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
                   company located in Washington state. Our owner has been in the business of 
                   remodeling houses for years, and has developed a deep understanding of the industry 

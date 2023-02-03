@@ -15,7 +15,7 @@ const ReviewsPage = () => {
 
    
       <div className='ReviewsSplashContainer text-white
-        flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
+        flex flex-col justify-center items-center mt-32 mb-16 rounded-xl '>
         <h1 className='text-4xl uppercase mb-4'>Reviews</h1>
         <p className='ReviewsDescription'>At Task Remodeling and Home Repair, customer satisfaction is our 
           top priority. We take pride in the work we do and strive to exceed our clients' 

@@ -14,7 +14,7 @@ const ContactPage = () => {
       transition={{ duration: 1 }}
       
       className='ContactDescContainer text-white text-center
-        flex flex-col justify-center items-center mt-32 mb-16 rounded-xl w-3/4'>
+        flex flex-col justify-center items-center mt-32 mb-16 rounded-xl'>
         <h1 className='text-4xl uppercase mb-4'>Contact</h1>
         <p className='ContactDescription'>
           Thank you for considering Task Remodeling and Home Repair for your home 
@@ -50,7 +50,7 @@ const ContactPage = () => {
 
       </div>
 
-      <div className='ContactForm mb-32 secondaryColorBackground'>
+      <div className='ContactForm mb-32'>
       </div>
 
     </div>
