@@ -20,8 +20,8 @@ const Home = () => {
       <div className='SplashContainer background-tint h-screen text-right flex flex-col items-end justify-center'>
           <div className='pr-4 flex flex-col items-end justify-center'>
               <h1 className='text-white text-5xl uppercase'>Bringing your home renovation dreams to life</h1>
-              <h2 className='text-white text-3xl pt-8 pb-8 uppercase'>Serving the community with pride</h2>
-              <a href="/contact"><button className='secondaryColorBackground text-white p-4 
+              <p className='text-white text-3xl pt-8 pb-8 uppercase '>Serving the community with pride</p>
+              <a href="/contact"><button className='SplashContactUsButton text-white p-4 
                   rounded-xl drop-shadow-xl w-36'
                   style={{zIndex:1}}>
                   CONTACT US
@@ -54,7 +54,7 @@ const Home = () => {
         </div>
 
       <section className='bg-black text-center pb-4'>  
-        <h2 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h2>
+        <h3 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h3>
         <div className='HomeGalleryContainer'>
           {HomeGalleryData.data.initialdata.map((item, index) => {
             return (
@@ -69,7 +69,7 @@ const Home = () => {
         </div>
         <p className='text-white text-xl'>Still not convinced? Check out our 
           <span><a href="./gallery">
-            <button className='secondaryColorBackground p-4 uppercase rounded-xl ml-4 mr-4'>
+            <button className='HomeSeeGalleryButton p-4 uppercase rounded-xl ml-4 mr-4'>
             Gallery
             </button></a></span>
           to see more!

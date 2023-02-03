@@ -20,7 +20,7 @@ const Flooring = () => {
           </div>
           <div className='ImageContainer column p-4'>
             <img classname='Image' src = {floorDarkBrown} alt='bathroomImage' className='rounded-lg'/>
-            <a href='/Gallery'><button className='mt-4 p-4 bg-black text-white uppercase w-32 rounded-xl'>
+            <a href='/Gallery'><button className='mt-4 p-4 text-white uppercase w-32 rounded-xl'>
             Gallery
             </button></a>
           </div>

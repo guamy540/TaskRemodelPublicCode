@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .quoteButton{
-    background-color: rgb(146 64 14);
+    font-family: 'Source Serif Pro', sans-serif;;
+    background-color: var(--primaryBlue);
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -28,13 +29,14 @@
         display: none;
     }
     .CallNowContainer{
+        font-family: 'Source Serif Pro', sans-serif;;
         display: flex;
         flex-direction: column;
         align-items: center;
         color: white;
     }
     .CallNowContainer > button{
-        background-color: rgb(146 64 14);
+        background-color: var(--primaryBlue);
         padding: 0.5rem;
         border-radius: 1rem;
         border: solid black;
@@ -42,7 +44,7 @@
     .CallNowPhoneIcon{
         padding: 0.5rem;
         font-size: 3.5rem;
-        background-color: rgb(146 64 14);
+        background-color: var(--primaryBlue);
         border-radius: 3rem;
         border: solid #000000;
         animation: pulse 2s infinite;

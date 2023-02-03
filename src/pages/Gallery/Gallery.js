@@ -30,7 +30,7 @@ const Gallery = () => {
 
         
         <section className='bg-black text-center pb-4'>  
-        <h2 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h2>
+        <h3 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h3>
         <div className='HomeGalleryContainer'>
           {GalleryData.data.initialdata.map((item, index) => {
             return (

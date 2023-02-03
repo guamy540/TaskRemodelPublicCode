@@ -1,8 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Oswald&family=Source+Serif+Pro&display=swap');
+:root{
+    --primaryBlue: #2a4966;
+    --primarySand: #a69475;
+    --primaryBrown: #3b2f1c;
+}
 
 p{
+    font-family: 'Source Serif Pro', serif;
     font-size: 1.3rem;
     line-height: 1.6em !important;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-family: 'Source Serif Pro', sans-serif;
+}
+
+h3{
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+button{
+    font-family: 'Source Serif Pro', sans-serif;
 }

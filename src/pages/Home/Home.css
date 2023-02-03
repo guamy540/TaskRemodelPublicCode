@@ -23,19 +23,19 @@
 }
 
 .SplashContainer{
-    background: url(../../assets/images/wooden-decking-backyard.jpg);
+    background: url(../../assets/images/deckOutside.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .background-tint{
-    background-color: rgba(40, 25, 11, 0.5);
+    background-color: rgba(40, 25, 11, 0.716);
     background-blend-mode: multiply;
 }
 
 .SplashDescriptionContainer{
-    background-color: rgb(146 64 14);
+    background: linear-gradient(70deg, rgb(109, 49, 11), rgba(74, 33, 7, 0.888));
 }
 
 .HomeDescription{
@@ -88,6 +88,16 @@
     background-color: rgba(0, 0, 0, 0.4);
     color:white;
     cursor: pointer;
+}
+
+
+.SplashContactUsButton{
+    font-family: 'Source Serif Pro', sans-serif;
+    background-color: var(--primaryBlue);
+}
+
+.HomeSeeGalleryButton{
+    background: var(--primaryBlue);
 }
 
 @media (max-width: 700px) {

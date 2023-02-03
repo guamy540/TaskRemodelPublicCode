@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 .Navbar {
+  font-family: 'Source Serif Pro', sans-serif;
   position:fixed;
   top: 2.4rem;
   width: 100vw;
@@ -10,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(37, 33, 31);
+  background: linear-gradient(45deg, rgb(23, 23, 23), black);
 }
 
 .Navbar > .nav-logo {

@@ -8,7 +8,7 @@ const Services = () => {
     <div className='ServicesPageContainer flex flex-col justify-center items-center bg-black'>
        
        {/**services splash */}
-       <div className='ServicesSplashContainer text-white secondaryColorBackground
+       <div className='ServicesSplashContainer text-white 
             flex flex-col justify-center items-center mt-32 rounded-xl'>
             <h1 className='text-4xl uppercase mb-4 p-4'>Services</h1>
             <p>Task Remodeling and Home Repair offers a wide range of services to meet all of 
@@ -28,7 +28,7 @@ const Services = () => {
                 smooth={true}
                 offset={0}
                 duration={500}><button 
-                className='p-4 m-4 bg-black text-white rounded-xl uppercase'>
+                className='p-4 m-4 text-white rounded-xl uppercase'>
                 Bathroom
                 </button></Link>
                 <Link
@@ -38,7 +38,7 @@ const Services = () => {
                 smooth={true}
                 offset={0}
                 duration={500}><button 
-                className='p-4 m-4 bg-black text-white rounded-xl uppercase'>
+                className='p-4 m-4 text-white rounded-xl uppercase'>
                 Flooring
                 </button></Link>
                 <Link
@@ -49,7 +49,7 @@ const Services = () => {
                 offset={0}
                 duration={500}>
                 <button 
-                className='p-4 m-4 bg-black text-white rounded-xl uppercase'>
+                className='p-4 m-4 text-white rounded-xl uppercase'>
                 Exterior
                 </button></Link>
             </div>

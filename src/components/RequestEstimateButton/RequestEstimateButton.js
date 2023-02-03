@@ -10,7 +10,7 @@ const RequestEstimateButton = () => {
       </button></a>
       <a href='tel: +4253217015'>
         <div className='CallNowContainer'>
-          <button className='CallNowButton'>Call Now</button>
+          <button className='CallNowButton uppercase'>Call Now</button>
           <div>
             <BsTelephoneFill className='CallNowPhoneIcon'/>
           </div>

@@ -1,8 +1,11 @@
 .ContactFormContainer{
+    background: linear-gradient(to bottom, rgb(150, 102, 40),rgb(131, 94, 44));
     min-width: 35rem;
+    border-radius: 1rem;
+    font-family: 'Source Sans Serif', sans-serif;
 }
 #formSubmitButton{
-    background-color: black;
+    background-color: var(--primaryBlue);
     width: 8rem;
     border-radius: 0.7rem;
     padding: 1rem;

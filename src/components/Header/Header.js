@@ -6,7 +6,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <div className='HeaderContainer flex flex-row bg-amber-800 justify-between 
+    <div className='HeaderContainer flex flex-row justify-between 
       h-10 items-center' style={{zIndex:100}}>
       <div className='SocialContainer flex flex-row pl-4'>
         <FaFacebook className='FacebookLogo mr-2 text-white'/>

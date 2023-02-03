@@ -10,6 +10,7 @@
 .meetRobSplashContainer{}
 
 .AboutSplashContainer{
+    background: linear-gradient(to bottom, rgb(109, 49, 11), rgba(74, 33, 7, 0.888));
     padding:4rem;
     width: 75%;
 }

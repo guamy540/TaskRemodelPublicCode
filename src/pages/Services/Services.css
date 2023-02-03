@@ -4,7 +4,13 @@
 }
 
 .ServicesSplashContainer{
+    background: linear-gradient(to bottom, rgb(109, 49, 11), rgba(74, 33, 7, 0.888));
     text-align: center;
+}
+
+button{
+    font-family: 'Source Serif Pro', sans-serif;
+    background-color: var(--primaryBlue);
 }
 
 .SectionContainer{

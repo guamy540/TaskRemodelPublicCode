@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <section className='AboutPageContainer flex flex-col justify-center items-center bg-black'>
-            <div className='AboutSplashContainer text-white secondaryColorBackground
+            <div className='AboutSplashContainer text-white 
                 flex flex-col justify-center items-center mt-32 rounded-xl'>
                 <h1 className='text-4xl uppercase mb-4'>About</h1>
                 <p className=''>Task Remodeling and Home Repair is a family-owned and operated home remodeling 
@@ -24,7 +24,7 @@ const About = () => {
 
         
       <section className='flex flex-col justify-center items-center bg-black'>
-            <div className='AboutSplashContainer text-white secondaryColorBackground
+            <div className='AboutSplashContainer text-white 
                 flex flex-col justify-center items-center mb-16 mt-16 rounded-xl'>
                 <h1 className='text-4xl uppercase mb-4'>Meet Rob</h1>
                 <div className='row'>
