@@ -60,7 +60,7 @@ const Home = () => {
         </motion.div>
         </div>
 
-      <section className='bg-black text-center pb-4'>
+      <section className='bg-black text-center pb-4 pb-32'>
         <motion.div
         whileInView={{opacity: [0, 3] }}
              transition={{ duration: 1 }}>

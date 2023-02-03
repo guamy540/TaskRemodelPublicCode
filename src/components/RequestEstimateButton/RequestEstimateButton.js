@@ -9,7 +9,7 @@ const RequestEstimateButton = () => {
         Request Estimate
       </button></a>
       <a href='tel: 4253217015'>
-        <div className='CallNowContainer'>
+        <div className='CallNowContainer' style={{zIndex:1000}}>
           <button className='CallNowButton uppercase'>Call Now</button>
           <div>
             <BsTelephoneFill className='CallNowPhoneIcon'/>
