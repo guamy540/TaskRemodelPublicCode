@@ -30,6 +30,21 @@ const Gallery = () => {
             project.</p>
         </div>
 
+        <div className='GalleryCollectionContainer'>
+          {GalleryData.data.initialdata.map((item, index) => {
+            return(
+              <div key={index} className="GalleryImageContainer">
+                <img src={item.image} alt="work" onClick={() => getImg(item.image)}/>
+              </div>
+            )
+          })}
+        </div>
+
+        <div className= {model? "model open" : "model"}>
+          <img src={tempimgSrc} alt="enlarged"/>
+          <TfiClose onClick={() => setModel(false)}/>
+      </div>
+
       </div>
   )
 }

@@ -5,6 +5,21 @@
     width:85%
 }
 
+.GalleryCollectionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.GalleryImageContainer{
+    max-width: 20rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+
 @media (max-width: 700px) {
 
     .GalleryPageContainer{
