@@ -1,0 +1,28 @@
+.CarouselItemContainer{
+    width: 100%;
+}
+
+.carousel-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-slider{
+    border-radius: 1rem;
+}
+
+li.slide.selected{
+    height: 10rem;
+}
+
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .slide img {
+    max-height: 60vh;  /* change this to whatever you want */
+    width: auto;
+    border-radius: .4rem;
+}

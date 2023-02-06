@@ -100,6 +100,15 @@
     background: var(--primaryBlue);
 }
 
+.CarouselSection{
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
 @media (max-width: 700px) {
     .HomeDescription{
         text-align: left;

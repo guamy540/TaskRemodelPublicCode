@@ -1,4 +1,4 @@
-import { bathroomOverhead, deckOutside, frontHouse } from "../../assets";
+import { bathroomOverhead, floorDarkBrown, frontHouse, deckOutside } from "../../assets";
 
 var HomeGalleryData = {
     data: {
@@ -10,12 +10,17 @@ var HomeGalleryData = {
             
             {
                 "text" : "",
-                "image" : deckOutside,
+                "image" : floorDarkBrown,
             },
             
             {
                 "text" : "",
                 "image" : frontHouse
+            },
+
+            {
+                "text" : "",
+                "image" : deckOutside
             }
         ]
     }

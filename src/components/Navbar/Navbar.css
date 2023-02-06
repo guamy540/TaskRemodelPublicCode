@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(45deg, rgb(23, 23, 23), black);
+  opacity: 0.9;
 }
 
 .Navbar > .nav-logo {

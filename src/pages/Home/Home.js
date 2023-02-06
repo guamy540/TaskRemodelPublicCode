@@ -4,6 +4,7 @@ import "./Home.css"
 import "../../assets/styles/colors.css"
 import HomeGalleryData from './HomeGalleryData'
 import {TfiClose} from 'react-icons/tfi'
+import Carousel from '../../components/Carousel/Carousel'
 
 const Home = () => {
   
@@ -66,7 +67,8 @@ const Home = () => {
              transition={{ duration: 1 }}>
           <h3 className='text-white pt-8 text-4xl uppercase'>Take a look at some of our work!</h3>
         <div className='HomeGalleryContainer'>
-          {HomeGalleryData.data.initialdata.map((item, index) => {
+          <Carousel images={HomeGalleryData}/>
+          {/*HomeGalleryData.data.initialdata.map((item, index) => {
             return (
               <motion.div key={index} 
               className='HomeGalleryImages' 
@@ -75,7 +77,7 @@ const Home = () => {
                 <img src={item.image} className='rounded-md hgImage' alt={item.text}/>
               </motion.div>
             )
-          })}
+          })*/}
         </div>
         <p className='text-white text-xl'>Still not convinced? Check out our 
           <span><a href="./gallery">
@@ -92,7 +94,6 @@ const Home = () => {
           <img src={tempimgSrc} alt="enlarged"/>
           <TfiClose onClick={() => setModel(false)}/>
       </div>
-
     </main>
   )
 }
