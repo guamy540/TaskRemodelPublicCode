@@ -6,7 +6,7 @@ import ContactForm from '../../components/ContactForm/ContactForm'
 
 const ContactPage = () => {
   return (
-    <div className='ContactPageContainer mt-16 min-h-screen flex flex-col 
+    <div className='ContactPageContainer pt-16 min-h-screen flex flex-col 
     justify-center text-center items-center bg-black'>
     
       <motion.div 
@@ -23,6 +23,8 @@ const ContactPage = () => {
           consultation, please don't hesitate to contact us. You can reach us by phone, email, 
           or by filling out the contact form on this page. We look forward to hearing from you 
           and helping you create the home of your dreams.</p>
+
+          {/**Service areas include Mt. Vernon, Bellingham, Sedro-Woolley, Burlington, Arlington */}
       
           <div className='ContactSplashContainer w-3/4 text-white 
         flex flex-col justify-center items-center rounded-md pt-8 pb-8'>

@@ -9,10 +9,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
         <nav className="Navbar" style={{zIndex:100}}>
-          <a href= "/"><span className="nav-logo text-white pl-4">TASK_LOGO</span></a>
+          <a href= "/"><span className="nav-logo text-white pl-4">TASK REMODELING</span></a>
           <div className={`nav-items ${isOpen && "open"}`}>
             <a href="/">Home</a>
-            <a href="/about">About</a>
+            <a href="/about">Why Us</a>
             <a href="/services">Services</a>
             <a href="/gallery">Gallery</a>
             <a href="/reviews">Reviews</a>

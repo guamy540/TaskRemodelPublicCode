@@ -17,13 +17,14 @@ const Services = () => {
             <h1 className='text-4xl uppercase mb-4 p-4'>Services</h1>
             <p>Task Remodeling and Home Repair offers a wide range of services to meet all of 
                 your home renovation needs. Our team of experienced professionals specializes 
-                in bathroom remodels, painting, roofing, decking, drywall, plumbing, tile, flooring, 
-                doors, windows, and trim work. We understand that remodeling your home can be a daunting 
+                in bathroom remodels, painting, roofing, decking, drywall, tile, flooring, 
+                windows and doors as well as trim work. We understand that remodeling your home can be a daunting 
                 task, which is why we work closely with our clients to create a design that fits their 
                 style, budget, and timeline. From small updates to full-scale renovations, we have the 
                 expertise to bring your home renovation dreams to life. Browse through our services and 
                 let us know how we can help you create the home of your dreams. Contact us today to 
-                schedule a consultation.</p>
+                schedule a consultation.<br/></p><p></p>
+              <p>Service areas include Mt. Vernon, Bellingham, Sedro-Woolley, Burlington, Arlington.</p>
             <div className='ServicesPageLinks flex flex-wrap flex-row justify-center'>
             <Link
                 activeClass="active"

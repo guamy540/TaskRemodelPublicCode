@@ -1,4 +1,4 @@
-import { bathroomOverhead, floorDarkBrown, frontHouse, deckOutside } from "../../assets";
+import { bathroomOverhead, floorDarkBrown, frontHouse, deckOutside, floorLightBrown } from "../../assets";
 
 var HomeGalleryData = {
     data: {
