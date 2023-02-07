@@ -44,6 +44,7 @@ const ContactPage = () => {
           <li>Sun: 8:00AM - 7:00 PM</li>
         </ul>
       </div>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pJV0rSfqmkLptw0h1FZWDpSWgSm84so&ehbc=2E312F" className='ServiceAreaMap'></iframe>
       
         <ContactForm/>
       </motion.div>
@@ -53,8 +54,8 @@ const ContactPage = () => {
       </div>
 
       <div className='ContactForm mb-32'>
-      </div>
 
+      </div>
     </div>
   )
 }
