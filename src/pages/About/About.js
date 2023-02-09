@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import { deckOutside } from '../../assets'
+import { deckOutside, taskLogo } from '../../assets'
 import {motion} from 'framer-motion'
 
 const About = () => {
@@ -48,7 +48,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className='column'>
-                    <img src={deckOutside} alt='profile' className='rounded-lg'/>
+                    <img src={taskLogo} alt='profile' className='rounded-lg'/>
                   </div>          
                 </div>
                 </motion.div>
