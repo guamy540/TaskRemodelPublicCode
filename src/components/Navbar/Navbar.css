@@ -59,6 +59,11 @@
 }
 
 @media (max-width: 925px) {
+
+  .SplashLogo{
+    margin-right: -4rem;
+  }
+
   .Navbar > .nav-items {
     position: absolute;
     top: 60px;

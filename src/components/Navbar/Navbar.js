@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
         <nav className="Navbar" style={{zIndex:100}}>
-          <a href= "/"><img src={logoText}/></a>
+          <a href= "/"><img src={logoText} className="SplashLogo"/></a>
           <div className={`nav-items ${isOpen && "open"}`}>
             <a href="/">Home</a>
             <a href="/about">Why Us</a>
