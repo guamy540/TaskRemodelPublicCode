@@ -3,13 +3,14 @@ import {FaFacebook} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {BsTelephoneFill} from 'react-icons/bs'
 import "./Navbar.css";
+import { logoText } from "../../assets";
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
         <nav className="Navbar" style={{zIndex:100}}>
-          <a href= "/"><span className="nav-logo text-white pl-4">TASK REMODELING</span></a>
+          <a href= "/"><img src={logoText}/></a>
           <div className={`nav-items ${isOpen && "open"}`}>
             <a href="/">Home</a>
             <a href="/about">Why Us</a>

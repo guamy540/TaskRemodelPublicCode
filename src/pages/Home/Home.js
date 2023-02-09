@@ -5,6 +5,7 @@ import "../../assets/styles/colors.css"
 import HomeGalleryData from './HomeGalleryData'
 import {TfiClose} from 'react-icons/tfi'
 import Carousel from '../../components/Carousel/Carousel'
+import { taskLogo } from '../../assets'
 
 const Home = () => {
   
@@ -18,13 +19,18 @@ const Home = () => {
 
   return (
     <main className='HomePageContainer'>
-      <div className='SplashContainer background-tint h-screen text-right flex flex-col items-end justify-center'>
+      <div className='SplashContainer background-tint'>
+        <motion.div
+        whileInView={{ opacity: [0, 3] }}
+        transition={{ duration: 1 }}>
+          <img src={taskLogo}/>
+        </motion.div>
           <motion.div
              whileInView={{ opacity: [0, 3] }}
              transition={{ duration: 1 }}
              className='pr-4 flex flex-col items-end justify-center'>
-              <h1 className='text-white text-5xl uppercase'>Bringing your home renovation dreams to life</h1>
-              <p className='text-white text-3xl pt-8 pb-8 uppercase '>Serving the community with pride</p>
+              <h1 className='SplashTitle'>Bringing your home renovation dreams to life</h1>
+              <p className='text-white text-end text-3xl pt-8 pb-8 uppercase '>Serving the community with pride</p>
               <a href="/contact"><button className='SplashContactUsButton text-white p-4 
                   rounded-xl drop-shadow-xl w-36'
                   style={{zIndex:1}}>

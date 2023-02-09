@@ -27,6 +27,17 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-transform: uppercase;
+}
+
+.SplashTitle {
+    color: white;
+    font-size: 3.5rem;
+    text-align: end;
 }
 
 .background-tint{
@@ -114,6 +125,17 @@
 }
 
 @media (max-width: 700px) {
+
+    .SplashTitle {
+        text-align: end;
+    }
+
+    .SplashContainer{
+        flex-direction: column;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
     .HomeDescription{
         text-align: left;
     }
