@@ -23,7 +23,7 @@ const Home = () => {
         <motion.div
         whileInView={{ opacity: [0, 3] }}
         transition={{ duration: 1 }}>
-          <img src={taskLogo}/>
+          <img src={taskLogo} alt='logo' className='SplashLogo'/>
         </motion.div>
           <motion.div
              whileInView={{ opacity: [0, 3] }}
